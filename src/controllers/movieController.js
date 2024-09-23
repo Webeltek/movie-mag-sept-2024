@@ -21,6 +21,13 @@ function getRatingViewData(rating){
     return '&#x2605;'.repeat(rating)
 }
 
+router.get('/search', async (req, res)=>{
+    const query = req.query;
+    const movies = await movieService.getAll(query)
+    res.render('home', {isSearch: true, movies});
+})
+
+
 router.get('/:movieId/details',async (req, res)=>{
     const movieId = req.params.movieId;
     const movie = await movieService.getOne(movieId);
