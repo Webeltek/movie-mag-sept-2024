@@ -6,7 +6,7 @@ import expressInit from './config/expressInit.js'
 import routes from './routes.js'
 const app = express();
 
-handlebarsinit(app);
+handlebarsInit(app);
 expressInit(app);
 
 
