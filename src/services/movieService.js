@@ -1,14 +1,14 @@
 
 import Movie from '../models/Movie.js'
 
-// TODO: Refactor using db filtration
-const getAll =  (filter = {})=> {
-    let movies = Movie.find()
+// TODO: Filter in db not in memory
+const getAll = async (filter = {})=> {
+    let movies = await Movie.find()
 
     if(filter.search){
         movies = movies.filter( movie=> movie.title.toLowerCase().includes(filter.search.toLowerCase()))
+        
     }
-
     if(filter.genre){
         movies = movies.filter(movie=> movie.genre.toLowerCase() === filter.genre.toLowerCase())
     }
