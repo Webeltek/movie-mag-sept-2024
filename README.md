@@ -6,3 +6,4 @@
 4. Convert file based storage to db storage
 5. Add cast model
 6. Create cast page
+7. Add attach cast page

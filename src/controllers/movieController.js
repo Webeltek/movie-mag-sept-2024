@@ -19,13 +19,6 @@ router.post('/create', async (req,res)=>{
     res.redirect('/')
 })
 
-function getRatingViewData(rating){
-    if(!Number.isInteger(rating)){
-        return 'n\\a'
-    }
-    return '&#x2605;'.repeat(rating)
-}
-
 router.get('/search', async (req, res)=>{
     const filter = req.query;
     const movies = await movieService.getAll(filter)
@@ -41,5 +34,16 @@ router.get('/:movieId/details',async (req, res)=>{
     movie.ratingView = getRatingViewData(movie.rating);
     res.render('movies/details', {movie})
 })
+
+router.get('/:movieId/attach', (req,res)=>{
+    res.render('movies/attach')
+})
+
+function getRatingViewData(rating){
+    if(!Number.isInteger(rating)){
+        return 'n\\a'
+    }
+    return '&#x2605;'.repeat(rating)
+}
 
 export default router;
