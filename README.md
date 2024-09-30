@@ -10,7 +10,11 @@
 8. Show cast in details page
 
 Bonus:
-- [ ] Add model validations
-- [ ] Fix filtering for movies
+- [X] Rating helper
+- [X] Fix filtering for movies
+- [X] Filter cast based on added ones
 - [ ] Add character name
-- [ ] Filter cast based on added ones
+- [ ] Atlas
+
+Next time:
+- [ ] Add model validations

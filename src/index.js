@@ -3,6 +3,7 @@ import handlebars from 'express-handlebars';
 import handlebarsInit from './config/handlebarsinit.js';
 import expressInit from './config/expressInit.js';
 import mongooseInit from './config/mongooseInit.js';
+import 'dotenv/config'
 
 import routes from './routes.js'
 const app = express();
