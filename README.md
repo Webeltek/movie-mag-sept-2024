@@ -26,6 +26,7 @@ Next time:
     - [ ] Add Auth controller
     - [ ] Add auth service
 - [ ] Add login page
+- [ ] Add dynamic navigation
 
 BONUS:
 - [ ] Automatic login for registered users
