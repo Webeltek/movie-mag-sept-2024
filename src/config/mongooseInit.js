@@ -6,6 +6,7 @@ const dbUrl = 'mongodb://localhost:27017/test1'
 export default async function mongooseInit(){
     try {
         const url = process.env.DB_URL || dbUrl;
+        //const url = dbUrl
         await connect(url, {})
         console.log('Connected to DB!' + url);
         

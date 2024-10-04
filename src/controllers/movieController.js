@@ -30,7 +30,7 @@ router.get('/search', async (req, res)=>{
 router.get('/:movieId/details',async (req, res)=>{
     const movieId = req.params.movieId;
     const movie = await movieService.getOne(movieId).lean();
-    console.log(movie.casts);
+    //console.log(movie.casts);
     
     
     res.render('movies/details', {movie})

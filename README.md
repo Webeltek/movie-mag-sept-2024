@@ -13,8 +13,13 @@ Bonus:
 - [X] Rating helper
 - [X] Fix filtering for movies
 - [X] Filter cast based on added ones
-- [ ] Add character name
-- [ ] Atlas
+- [X] Add character name
+- [X] Atlas
 
 Next time:
 - [ ] Add model validations
+
+## Developing steps - Workshop 3 Authentication
+- [ ] Fix Bug from previous workshop
+- [ ] Add model validations
+- [ ] Select dropdown with prepopulated value
