@@ -20,6 +20,16 @@ Next time:
 - [ ] Add model validations
 
 ## Developing steps - Workshop 3 Authentication
-- [ ] Fix Bug from previous workshop
-- [ ] Add model validations
+- [X] Fix Bug from previous workshop
+- [ ] Add register page
+    - [ ] Add User model
+    - [ ] Add Auth controller
+    - [ ] Add auth service
+- [ ] Add login page
+
+BONUS:
+- [ ] Automatic login for registered users
 - [ ] Select dropdown with prepopulated value
+
+## Next Time
+- [ ] Add model validations
