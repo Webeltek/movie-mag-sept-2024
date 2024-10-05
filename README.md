@@ -35,6 +35,7 @@ Next time:
 
 BONUS:
 - [ ] Automatic login for registered users
+- [ ] Make jwt library asynchronous
 - [ ] Select dropdown with prepopulated value
 
 ## Next Time
