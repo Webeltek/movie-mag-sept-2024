@@ -25,12 +25,13 @@ Next time:
     - [x] Add User model
     - [x] Add Auth controller
     - [x] Add auth service
-- [x] Hash password before save
+- [x] Hash password before save `npm i bcrypt`
 - [x] Add login page
     - [x] validate password
     - [ ] create jwt token
-    - [ ] create token
-    - [ ] add token to cookie
+    - [ ] create token `npm i jsonwebtoken`
+    - [ ] add token to cookie  `npm i cookie-parser`
+- [ ] Add authorization    
 - [ ] Add dynamic navigation
 
 BONUS:
