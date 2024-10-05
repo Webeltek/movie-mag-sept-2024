@@ -21,11 +21,16 @@ Next time:
 
 ## Developing steps - Workshop 3 Authentication
 - [X] Fix Bug from previous workshop
-- [ ] Add register page
-    - [ ] Add User model
-    - [ ] Add Auth controller
-    - [ ] Add auth service
-- [ ] Add login page
+- [x] Add register page
+    - [x] Add User model
+    - [x] Add Auth controller
+    - [x] Add auth service
+- [x] Hash password before save
+- [x] Add login page
+    - [x] validate password
+    - [ ] create jwt token
+    - [ ] create token
+    - [ ] add token to cookie
 - [ ] Add dynamic navigation
 
 BONUS:
@@ -33,4 +38,5 @@ BONUS:
 - [ ] Select dropdown with prepopulated value
 
 ## Next Time
+- [ ] Validare rePassword
 - [ ] Add model validations
