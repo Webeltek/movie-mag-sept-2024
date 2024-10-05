@@ -2,8 +2,7 @@ import bcrypt from 'bcrypt'
 import User from '../models/User.js'
 import jwt from 'jsonwebtoken'
 
-
-const SECRET = '4325njlkjn43324nlkasdjn098u'
+import { JWT_SECRET } from '../config/constants.js'
 
 const register = (email,password)=>{
     //TODO: check if user exists
@@ -27,7 +26,7 @@ const login = async (email,password)=>{
         _id: user._id, 
         email
     }
-    const token = jwt.sign(payload, SECRET, { expiresIn: '2h'})
+    const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '2h'})
     //TODO: Return jwt token
     return token;
 }
