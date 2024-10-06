@@ -62,6 +62,12 @@ router.get('/:movieId/delete', async (req,res)=>{
     res.redirect('/');
 })
 
+router.get('/:movieId/edit',async (req,res)=>{
+    const movieId = req.params.movieId;
+    
+    res.render('movies/edit')
+})
+
 function getRatingViewData(rating){
     if(!Number.isInteger(rating)){
         return 'n\\a'
