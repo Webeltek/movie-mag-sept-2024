@@ -1,10 +1,6 @@
 import { Schema , model, Types} from "mongoose";
 
 const movieSchema = new Schema({
-    _id : {
-        type: String,
-        required: true
-    },
     title: {
         type: String,
         required: true
@@ -42,7 +38,11 @@ const movieSchema = new Schema({
             ref: 'Cast'
         }
         
-    }]
+    }],
+    owner : {
+        type: Types.ObjectId,
+        ref: 'User'
+    }
 })
 
 const Movie = model('Movie', movieSchema);

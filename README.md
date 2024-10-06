@@ -28,10 +28,11 @@ Next time:
 - [x] Hash password before save `npm i bcrypt`
 - [x] Add login page
     - [x] validate password
-    - [ ] create jwt token
-    - [ ] create token `npm i jsonwebtoken`
-    - [ ] add token to cookie  `npm i cookie-parser`
-- [ ] Add authorization    
+    - [x] create jwt token
+    - [x] create token `npm i jsonwebtoken`
+    - [x] add token to cookie  `npm i cookie-parser`
+- [x] Add authorization
+- [ ] Add owner controll buttons in view page    
 - [ ] Add dynamic navigation
 
 BONUS:
