@@ -36,8 +36,8 @@ Next time:
 - [x] Add owner controll buttons in details page
 - [x] Delete movie
 - [x] Edit Movie  
+- [x] Add dynamic navigation
 - [ ] Logout 
-- [ ] Add dynamic navigation
 
 BONUS:
 - [ ] Automatic login for registered users
